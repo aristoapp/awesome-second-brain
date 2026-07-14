@@ -22,6 +22,7 @@ These systems center local files, wiki pages, vaults, or self-hosted brain opera
 | Solution | Best second-brain role | Status |
 |---|---|---|
 | [GBrain](gbrain.md) | Local or self-hosted brain operations layer | Core, hands-on researched |
+| [Data Olympus](data-olympus.md) | Governed local workspace for authoritative project knowledge | Core, pre-1.0 beta |
 | [obsidian-wiki](obsidian-wiki.md) | Agent-agnostic local knowledge-compilation framework for Obsidian | Core, source-backed |
 | [Hermes Agent + LLM Wiki](hermes-llm-wiki.md) | Agent-operated local Markdown wiki | Core |
 | [Hermes Agent + Obsidian + Honcho](hermes-obsidian-honcho.md) | Local-first second brain with agent memory and email (multi-component stack) | Core, hands-on researched |
