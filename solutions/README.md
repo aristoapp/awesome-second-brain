@@ -12,6 +12,7 @@ These systems package collection, organization, retrieval, and user-facing workf
 |---|---|---|
 | [Membase](membase.md) | Fastest end-to-end hosted second brain | Core |
 | [OpenHuman](openhuman.md) | Local-first personal AI with automatic memory capture | Core, early beta |
+| [screenpipe](screenpipe.md) | Continuous local work-context capture for people and agents | Core, source-backed |
 | [Khoj](khoj.md) | Personal AI over local files and notes | Core |
 | [Hjarni](hjarni.md) | AI-native Markdown notes app with built-in MCP | Core, source-backed |
 

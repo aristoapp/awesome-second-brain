@@ -16,7 +16,7 @@ Second-brain products, agent memory APIs, and retrieval substrates are often dis
 
 | Layer | Solutions |
 |---|---|
-| End-to-end app | [Membase](../solutions/membase.md), [OpenHuman](../solutions/openhuman.md), [Khoj](../solutions/khoj.md), [Hjarni](../solutions/hjarni.md) |
+| End-to-end app | [Membase](../solutions/membase.md), [OpenHuman](../solutions/openhuman.md), [screenpipe](../solutions/screenpipe.md), [Khoj](../solutions/khoj.md), [Hjarni](../solutions/hjarni.md) |
 | Local workspace | [GBrain](../solutions/gbrain.md), [obsidian-wiki](../solutions/obsidian-wiki.md), [Hermes Agent + LLM Wiki](../solutions/hermes-llm-wiki.md), [Hermes Agent + Obsidian + Honcho](../solutions/hermes-obsidian-honcho.md), [Obsidian/Logseq + AI bridge](../solutions/obsidian-logseq.md), [Pad](../solutions/pad.md) |
 | Agent memory layer | [Mem0/OpenMemory](../solutions/mem0-openmemory.md), [Honcho](../solutions/honcho.md), [Hindsight](../solutions/hindsight.md), [Mnemosyne](../solutions/mnemosyne.md), [Supermemory](../solutions/supermemory.md), [Hyperspell](../solutions/hyperspell.md), [taOSmd](../solutions/taosmd.md), [Vestige](../solutions/vestige.md) |
 | Memory substrate | [Zep/Graphiti](../solutions/zep-graphiti.md), [Cognee](../solutions/cognee.md) |
