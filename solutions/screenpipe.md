@@ -4,13 +4,13 @@
 
 - Website / docs: https://screenpipe.com and https://docs.screenpi.pe
 - Repo: https://github.com/screenpipe/screenpipe
-- Company / maintainer: Screenpipe (YC S26)
+- Company / maintainer: Screenpipe
 - Status: Production desktop app, local daemon, API, and published MCP package
-- Open source: Source-available under the Screenpipe Commercial License; personal non-commercial, nonprofit, educational, and research use are free, while commercial use requires a paid license. Earlier MIT-licensed versions remain under MIT.
+- Open source: Source-available under the Screenpipe Commercial License. Source builds permit personal non-commercial, nonprofit, educational, and research use; commercial use requires a paid license. Official prebuilt apps have separate terms and free/paid plans. Earlier MIT-licensed versions remain under MIT.
 - Deployment: Desktop app and local daemon on macOS, Windows, and Linux. Capture data is stored in local SQLite and media files by default; cloud AI, integrations, archive, sync, and team sharing are optional paths.
 - Primary users: Individuals and teams that want automatic work-context capture for search, review, and AI-agent workflows
 - Best second-brain role: Continuous local collection and retrieval of screen, audio, input, browser, and meeting context
-- Last reviewed: 2026-07-14
+- Profile reviewed: 2026-07-14; license and setup refreshed: 2026-09-16
 
 ## One-line Summary
 
@@ -33,7 +33,7 @@ screenpipe is strongest at Collect and Use. It gathers context that people usual
 | Personal / team scope | Personal-first local memory. Team features share encrypted pipe and recording-policy configurations; broader organization search and administration are separate enterprise surfaces. |
 | Feedback / correction | Built-in controls cover pausing capture, included or excluded windows and URLs, audio and clipboard capture, speaker/meeting edits, tags, explicit memories, retention, archive, and permanent range deletion. |
 | Privacy / control | Local-first by default, with documented boundaries for every optional cloud or integration path. Controls include ignored sources, API authentication, local or enclave PII filtering, retention modes, archive, and deletion. |
-| Setup / operations | Low-medium. Install the app, let it capture data, and use the built-in timeline; agent access adds an MCP connection such as `npx -y screenpipe-mcp`. Continuous capture still requires storage, privacy, and retention choices. |
+| Setup / operations | Low-medium. Install the app, let it capture data, and use the built-in timeline; agent access adds an MCP connection. The app can configure it through Settings → Connections; manual setup uses `npx -y screenpipe-mcp@latest` and the local API key documented in the setup guide. Continuous capture still requires storage, privacy, and retention choices. |
 
 ## Strengths
 
@@ -68,7 +68,8 @@ screenpipe trades automatic knowledge curation for unusually broad, local-first 
 ## Official Setup / Evaluation Links
 
 - [Desktop and CLI installation](https://github.com/screenpipe/screenpipe#install)
-- [MCP server setup](https://docs.screenpi.pe/mcp-server)
+- [MCP server setup](https://github.com/screenpipe/screenpipe/tree/main/packages/screenpipe-mcp)
+- [Official app plans](https://screenpipe.com/pricing)
 - [Local REST API reference](https://docs.screenpi.pe/cli-reference)
 - [Privacy data flow](https://docs.screenpi.pe/privacy-data-flow)
 - [Team configuration and encryption](https://docs.screenpi.pe/teams)
