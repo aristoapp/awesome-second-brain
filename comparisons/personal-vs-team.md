@@ -15,6 +15,7 @@
 | [Mnemosyne](../solutions/mnemosyne.md) | Strong | Strong | Partial / operational | Memory banks and global/session scope can separate contexts, but team permissions and review flows are external to the memory layer. |
 | [taOSmd](../solutions/taosmd.md) | Strong | Strong | Partial / operational | Per-agent shelves with cross-agent reads separate contexts, but team permissions and review flows are not part of the memory layer. |
 | [Vestige](../solutions/vestige.md) | Strong | Strong | Not primary fit | Per-project code memory and local scoping separate contexts, but memory is single-machine and local-only, with no team-permission or shared-workspace product surface. |
+| [memex](../solutions/memex.md) | Strong | Strong | Partial | Single-operator by default; opt-in source-based tenancy scopes each OAuth client or PAT to its own write source and read set, but there are no team roles or shared UI. |
 | [Mem0/OpenMemory](../solutions/mem0-openmemory.md) | Strong | Strong | Strong | User, session, and organizational memory make it product-friendly. |
 | [Zep/Graphiti](../solutions/zep-graphiti.md) | Possible | Strong | Strong | Best as app infrastructure for users, sessions, groups, and business data. |
 | [Cognee](../solutions/cognee.md) | Strong | Strong | Strong in API mode | Standalone mode isolates clients; API mode centralizes sharing. |
