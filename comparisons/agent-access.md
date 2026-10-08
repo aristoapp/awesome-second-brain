@@ -25,6 +25,16 @@
 | [Claude Projects/Claude Code](../solutions/claude-projects-code.md) | Integration | Agent SDK + API MCP connector | Built-in for Claude Code | Claude connectors/MCP; Claude Code terminal, IDE, desktop, and web surfaces | Built-in inside Claude contexts; connector writes depend on tool permissions | Project knowledge is Claude-scoped unless paired with external memory. |
 | [NotebookLM](../solutions/notebooklm.md) | Not primary fit | Partial for enterprise/API contexts | Not primary fit | NotebookLM/Gemini surfaces | Partial | Strong source Q&A across NotebookLM and synced Gemini notebooks; Enterprise APIs cover notebook/source/artifact management, but this remains weak as a broad MCP/CLI/agent activation layer. |
 
+## Focused retrieval integrations
+
+These documentation-based comparisons cover a specific access workflow, rather than a full second-brain profile. Runtime activation and retrieval quality have not been independently tested here.
+
+| Solution | MCP | API / SDK | CLI | Plugins / clients | Write-back | Notes |
+|---|---|---|---|---|---|---|
+| [Tale](https://github.com/tale-project/tale) | Built-in | Built-in REST API | Not primary fit | Documented remote MCP configurations for OpenCode and Claude Code | Knowledge write-back is not exposed by the documented MCP tool inventory | Self-hosted team/project workspace. `get_knowledge` retrieves passages from organization documents and crawled web pages, with source references and document/project identifiers. The deployment's `/api/v1/mcp` uses an API key and organization slug. This comparison covers knowledge retrieval; the separate automation-authoring tools are not a general memory-write interface. |
+
+Sources: [Tale MCP endpoint and tool inventory](https://docs.tale.dev/develop/mcp-endpoint), [editor configurations](https://docs.tale.dev/develop/use-tale-from-your-editor), and [self-hosting](https://docs.tale.dev/self-hosted/install/quickstart). Tale Community is MIT-licensed; infrastructure and model costs are separate. No automatic memory evolution or cross-tool activation result is asserted.
+
 ## Verification Rule
 
 Configured is not the same as used. For any setup, ask an AI tool a memory-dependent question and confirm that the host actually called `search`, `recall`, `query`, `search_memory`, `search_wiki`, or the equivalent tool during the task.
