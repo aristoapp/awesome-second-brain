@@ -18,6 +18,7 @@ These projects are relevant to AI second-brain architecture but are not yet full
 | [screenpipe](https://github.com/screenpipe/screenpipe) | Local-first 24/7 screen and microphone capture daemon that indexes OCR, accessibility, and audio transcripts into a queryable SQLite store, with MCP, REST, and SDK access for AI tools and agents. | Emerging local-first context-collection candidate; covers the Collect lifecycle stage for second-brain workflows but leaves knowledge organization and memory evolution to layers above it. |
 | [BrainTube](https://github.com/lildaddyo/braintube-mcp) | Hosted personal knowledge-base MCP server that ingests YouTube saves, articles, PDFs, Notion, and Obsidian into a per-user vector + graph store and exposes 52 tools (semantic search, entity/timeline traversal, resurfacing) over Streamable HTTP with OAuth 2.0 or API-key auth. | Emerging Use-layer activation candidate; hosted-only today with a Chrome capture extension and Official Registry / Smithery / Glama listings, so setup burden and personal/team governance surfaces still need source-backed evaluation before a full profile. |
 
+| [Mind Elixir](https://app.mind-elixir.com/) | Mind mapping web app for organizing ideas into interactive maps, with outline mode, tags, local storage and an MCP server for AI agents. | Emerging mind-mapping candidate for Organize/Use workflows; not yet a full evaluated profile. |
 ## Promotion Rule
 
 A watchlist item can become a core profile when it has:
