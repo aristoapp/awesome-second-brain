@@ -137,3 +137,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the contribution guidelines.
    <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=aristoapp/awesome-second-brain&type=date&legend=top-left" />
  </picture>
 </a>
+
+### Spoken Context & Local AI Hardware
+
+- [OneMira C1 & onemira-mcp](https://onemira.com/products/c1) - Standalone dual-microphone AI voice recorder with local AI transcription, multi-speaker separation (Speaker ID), Google Native OKF Markdown Wiki for Obsidian/Second Brain, and native Claude/Cursor MCP server ([onemira-mcp](https://github.com/onemira-space/onemira-mcp)) with zero cloud subscription.
