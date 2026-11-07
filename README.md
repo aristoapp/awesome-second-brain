@@ -67,6 +67,7 @@ This snapshot compares each system by the lifecycle stages where it is strongest
 | [Hermes Agent + Obsidian + Honcho](solutions/hermes-obsidian-honcho.md) | Collect, Organize, Evolve, Use, Govern | You want a local-first second brain with agent memory, email integration, and inspectable Markdown, and you're willing to assemble the stack. | Higher setup burden; you own the integration and operations of multiple components. |
 | [Obsidian/Logseq + AI bridge](solutions/obsidian-logseq.md) | Collect, Organize, Govern | You want a local PKM source of truth with optional AI bridges. | AI memory behavior depends on plugins, imports, or custom bridges. |
 | [Pad](solutions/pad.md) | Organize, Use, Govern | You want a self-hosted, agent-operated workspace where typed collections, conventions, and playbooks give agents durable project context through a native skill, MCP, API, and CLI. | Structured/keyword retrieval only — no semantic recall or automatic consolidation. |
+| [Knovum](solutions/knovum.md) | Collect, Organize, Use, Govern | You want a local-first spatial canvas and knowledge workspace with on-device speech, JSON Canvas, and embedded vector search. | Single-machine desktop application; no cloud sync service provided out of the box. |
 
 ### Agent Memory Layers
 
