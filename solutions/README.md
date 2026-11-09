@@ -10,6 +10,7 @@ These systems package collection, organization, retrieval, and user-facing workf
 
 | Solution | Best second-brain role | Status |
 |---|---|---|
+| [Hoppflow](hoppflow.md) | Business workspace with shared company memory | Vendor-sourced |
 | [Membase](membase.md) | Fastest end-to-end hosted second brain | Core |
 | [OpenHuman](openhuman.md) | Local-first personal AI with automatic memory capture | Core, early beta |
 | [Khoj](khoj.md) | Personal AI over local files and notes | Core |
