@@ -24,7 +24,7 @@ A curated comparison of second brain, AI memory, and knowledge systems for peopl
 
 Use this repo to decide how you want your second brain to work end to end:
 
-- [MemTether](https://github.com/MemTether/MemTether) - Cross-client AI memory hub with bi-temporal governance, supersession chains, hash-chain audit, and 9 MCP tools. One SQLite shared by all agents via file-level pointers.
+- [MemTether](https://github.com/MemTether/MemTether) - Cross-client AI memory hub for AI agents. Local-first, SQLite-backed, MCP server included. Apache-2.0.
 | Stage | Key question | What to compare |
 |---|---|---|
 | Collect | How does context from chats, docs, apps, notes, calendars, Slack, email, code, and files enter the brain? | Connectors, imports, APIs, manual notes, custom collectors |
