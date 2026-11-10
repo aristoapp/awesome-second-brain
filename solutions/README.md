@@ -41,6 +41,7 @@ These systems expose APIs, SDKs, MCP servers, or managed services that add memor
 | [Mnemosyne](mnemosyne.md) | Local-first agent memory layer with MCP and Hermes integration | Core, source-backed |
 | [taOSmd](taosmd.md) | Local-first, offline agent memory layer with a zero-loss archive | Core, source-backed |
 | [Vestige](vestige.md) | Local-first agent memory layer with FSRS-6 decay, active forgetting, and backward causal recall | Core, source-backed |
+| [deja-vu](deja-vu.md) | Retroactive cross-agent coding session memory, handoff, and code recovery layer | Core, source-backed |
 | [Mem0/OpenMemory](mem0-openmemory.md) | Developer memory layer with hosted and self-hosted paths | Core |
 
 ## Memory Substrates
