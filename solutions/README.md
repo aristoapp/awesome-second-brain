@@ -27,6 +27,7 @@ These systems center local files, wiki pages, vaults, or self-hosted brain opera
 | [Hermes Agent + Obsidian + Honcho](hermes-obsidian-honcho.md) | Local-first second brain with agent memory and email (multi-component stack) | Core, hands-on researched |
 | [Obsidian/Logseq + AI bridge](obsidian-logseq.md) | Local-first PKM source of truth | Core |
 | [Pad](pad.md) | Self-hosted, agent-operated project and context workspace | Core |
+| [Linkly AI](linkly-ai.md) | Local document index and retrieval layer for AI agents | Core, source-backed |
 
 ## Agent Memory Layers
 
