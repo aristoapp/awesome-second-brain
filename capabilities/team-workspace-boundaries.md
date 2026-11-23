@@ -25,6 +25,7 @@ Personal and team scope defines who can read, write, update, delete, and share m
 | Mnemosyne | Partial | Memory banks and global/session scope can separate domains or agent contexts. | Team permissions, admin controls, and review workflows are external to the memory backend. |
 | taOSmd | Partial | Per-agent shelves with cross-agent reads separate agent contexts and projects. | Team permissions, admin controls, and review workflows are not part of the memory layer. |
 | Vestige | Partial | Per-project code memory and local scoping separate contexts. | Memory is single-machine and local-only; team permissions, admin controls, and shared-workspace review are not part of the memory layer. |
+| [ClickHouse Loom](https://github.com/ClickHouse/loom) | Built-in but operational | Self-hosted shared agent memory; tokens scope access to namespaces and read or write roles. | Team deployment requires server operation and authenticated namespace grants. |
 | Mem0/OpenMemory | Built-in | User, session, and organizational memory. | Requires careful scope design. |
 | Zep/Graphiti | Built-in | Projects, users, sessions, groups. | Best as app infrastructure. |
 | Cognee | Built-in in API mode | Shared backend/API mode. | Standalone mode isolates clients. |
@@ -46,3 +47,4 @@ Personal and team scope defines who can read, write, update, delete, and share m
 - [taOSmd v0.2.0 release](https://github.com/jaylfc/taosmd/releases/tag/v0.2.0)
 - [Mem0 memory types](https://docs.mem0.ai/core-concepts/memory-types)
 - [Cognee MCP overview](https://docs.cognee.ai/cognee-mcp/mcp-overview)
+- [ClickHouse Loom v1.3.0 namespaces and sharing](https://github.com/ClickHouse/loom/blob/47b479dcdae4c089aef2690428fa4c9a8f54554c/docs/features/namespaces-and-sharing.md)
